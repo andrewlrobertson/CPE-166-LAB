@@ -1,0 +1,10 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/166 Lab/3_1/approach2/clock_div.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity clock_div
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/166 Lab/3_1/approach2/seven_segment.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity seven_segment
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/166 Lab/3_1/approach2/top.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity top
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/166 Lab/3_1/approach2/up_down_counter.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity up_down_counter
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/166 Lab/3_1/approach2/her_tb4.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity top_tb

@@ -1,0 +1,102 @@
+#-----------------------------------------------------------
+# Vivado v2017.2 (64-bit)
+# SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+# IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+# Start of session at: Wed Feb 21 11:59:50 2018
+# Process ID: 9620
+# Current directory: E:/166 Lab/2_2/Lab2_2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent8020 E:\166 Lab\2_2\Lab2_2\Lab2_2.xpr
+# Log file: E:/166 Lab/2_2/Lab2_2/vivado.log
+# Journal file: E:/166 Lab/2_2/Lab2_2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {E:/166 Lab/2_2/Lab2_2/Lab2_2.xpr}
+update_compile_order -fileset sources_1
+add_files -norecurse {{E:/166 Lab/2_2/dffb.v}}
+update_files -from_files {{E:/166 Lab/2_2/dffb.v}} -to_files C:/Users/robertsa/Downloads/dffb.v -filesets [get_filesets *]
+update_compile_order -fileset sources_1
+file mkdir E:/166 Lab/2_2/Lab2_2/Lab2_2.srcs/sources_1/new
+file mkdir E:/166 Lab/2_2/Lab2_2/Lab2_2.srcs/sources_1/new
+file mkdir E:/166 Lab/2_2/Lab2_2/Lab2_2.srcs/sources_1/new
+file mkdir E:/166 Lab/2_2/Lab2_2/Lab2_2.srcs/sources_1/new
+file mkdir E:/166 Lab/2_2/Lab2_2/Lab2_2.srcs/sources_1/new
+file mkdir E:/166 Lab/2_2/Lab2_2/Lab2_2.srcs/sources_1/new
+file mkdir {E:/166 Lab/2_2/Lab2_2/Lab2_2.srcs/sources_1/new}
+close [ open {E:/166 Lab/2_2/Lab2_2/Lab2_2.srcs/sources_1/new/multiplier_tb.v} w ]
+add_files {{E:/166 Lab/2_2/Lab2_2/Lab2_2.srcs/sources_1/new/multiplier_tb.v}}
+update_compile_order -fileset sources_1
+remove_files  {{E:/166 Lab/2_2/Lab2_2/Lab2_2.srcs/sources_1/new/multiplier_tb.v}}
+file mkdir E:/166 Lab/2_2/Lab2_2/Lab2_2.srcs/sim_1/new
+file mkdir E:/166 Lab/2_2/Lab2_2/Lab2_2.srcs/sim_1/new
+file mkdir E:/166 Lab/2_2/Lab2_2/Lab2_2.srcs/sim_1/new
+file mkdir E:/166 Lab/2_2/Lab2_2/Lab2_2.srcs/sim_1/new
+file mkdir E:/166 Lab/2_2/Lab2_2/Lab2_2.srcs/sim_1/new
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+file mkdir E:/166 Lab/2_2/Lab2_2/Lab2_2.srcs/sim_1/new
+file mkdir {E:/166 Lab/2_2/Lab2_2/Lab2_2.srcs/sim_1/new}
+close [ open {E:/166 Lab/2_2/Lab2_2/Lab2_2.srcs/sim_1/new/multiplier_tb.v} w ]
+add_files -fileset sim_1 {{E:/166 Lab/2_2/Lab2_2/Lab2_2.srcs/sim_1/new/multiplier_tb.v}}
+update_compile_order -fileset sim_1
+set_property is_enabled false [get_files  {{E:/166 Lab/2_2/adder_tb.v}}]
+update_compile_order -fileset sim_1
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+wait_on_run synth_1
+launch_simulation
+source multiplier_tb.tcl
+set_property is_enabled false [get_files  {{E:/166 Lab/2_2/Lab2_2/Lab2_2.srcs/sim_1/new/multiplier_tb.v}}]
+set_property is_enabled true [get_files  {{E:/166 Lab/2_2/dffa_tb.v}}]
+update_compile_order -fileset sim_1
+launch_simulation
+source multiplier.tcl
+set_property is_enabled false [get_files  {{E:/166 Lab/2_2/multiplier.v}}]
+update_compile_order -fileset sim_1
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+wait_on_run synth_1
+launch_simulation
+source dffa_tb.tcl
+set_property is_enabled true [get_files  {{E:/166 Lab/2_2/multiplier.v}}]
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+set_property is_enabled false [get_files  {{E:/166 Lab/2_2/dffa_tb.v}}]
+set_property is_enabled true [get_files  {{E:/166 Lab/2_2/Lab2_2/Lab2_2.srcs/sim_1/new/multiplier_tb.v}}]
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+wait_on_run synth_1
+launch_runs impl_1 -jobs 2
+wait_on_run impl_1
+reset_run impl_1 -prev_step 
+current_sim simulation_1
+close_sim
+launch_simulation
+source multiplier_tb.tcl
+close_sim
+current_sim simulation_3
+close_sim
+close_sim
+launch_simulation
+source multiplier_tb.tcl
+close_sim
+launch_simulation
+source multiplier_tb.tcl
+close_sim
+launch_simulation
+source multiplier_tb.tcl
+close_sim
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+wait_on_run synth_1
+launch_simulation
+source multiplier_tb.tcl
+close_sim
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+wait_on_run synth_1
+close_project

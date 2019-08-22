@@ -1,0 +1,19 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../../MUX2_1.v" \
+"../../../../../adder.v" \
+"../../../../../dffa.v" \
+"../../../../../dffb.v" \
+"../../../../../dffcarry.v" \
+"../../../../../multiplier.v" \
+"../../../../../myfsm.v" \
+"../../../../../ph.v" \
+"../../../../../pl.v" \
+"../../../../../top.v" \
+"../../../../../top_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

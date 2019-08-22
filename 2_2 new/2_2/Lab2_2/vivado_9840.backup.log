@@ -1,0 +1,1746 @@
+#-----------------------------------------------------------
+# Vivado v2017.2 (64-bit)
+# SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+# IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+# Start of session at: Wed Feb 21 14:07:07 2018
+# Process ID: 9840
+# Current directory: E:/166 Lab/2_2/Lab2_2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7096 E:\166 Lab\2_2\Lab2_2\Lab2_2.xpr
+# Log file: E:/166 Lab/2_2/Lab2_2/vivado.log
+# Journal file: E:/166 Lab/2_2/Lab2_2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {E:/166 Lab/2_2/Lab2_2/Lab2_2.xpr}
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2017.2/data/ip'.
+open_project: Time (s): cpu = 00:00:07 ; elapsed = 00:00:05 . Memory (MB): peak = 803.309 ; gain = 81.488
+update_compile_order -fileset sources_1
+launch_simulation
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'multiplier_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/166 Lab/2_2/Lab2_2/Lab2_2.sim/sim_1/behav'
+"xvlog -m64 --relax -prj multiplier_tb_vlog.prj"
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/166 Lab/2_2/MUX2_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX2_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/166 Lab/2_2/adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/166 Lab/2_2/dffa.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dffa
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/166 Lab/2_2/dffb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dffb
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/166 Lab/2_2/multiplier.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplier
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/166 Lab/2_2/ph.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ph
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/166 Lab/2_2/pl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pl
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/166 Lab/2_2/Lab2_2/Lab2_2.srcs/sim_1/new/multiplier_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplier_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/166 Lab/2_2/Lab2_2/Lab2_2.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [Common 17-344] 'run_program' was cancelled
+INFO: [Vivado 12-5357] 'compile' step aborted
+INFO: [Common 17-344] 'launch_simulation' was cancelled
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+[Wed Feb 21 14:20:17 2018] Launched synth_1...
+Run output will be captured here: E:/166 Lab/2_2/Lab2_2/Lab2_2.runs/synth_1/runme.log
+launch_simulation
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'multiplier_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/166 Lab/2_2/Lab2_2/Lab2_2.sim/sim_1/behav'
+"xvlog -m64 --relax -prj multiplier_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/166 Lab/2_2/MUX2_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX2_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/166 Lab/2_2/adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/166 Lab/2_2/dffa.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dffa
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/166 Lab/2_2/dffb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dffb
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/166 Lab/2_2/multiplier.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplier
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/166 Lab/2_2/ph.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ph
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/166 Lab/2_2/pl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pl
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/166 Lab/2_2/Lab2_2/Lab2_2.srcs/sim_1/new/multiplier_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplier_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/166 Lab/2_2/Lab2_2/Lab2_2.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/166 Lab/2_2/Lab2_2/Lab2_2.sim/sim_1/behav'
+Vivado Simulator 2017.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2017.2/bin/unwrapped/win64.o/xelab.exe -wto 41d621a2a11a44cab3370cfff6b0870d --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot multiplier_tb_behav xil_defaultlib.multiplier_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 8 for port out [E:/166 Lab/2_2/Lab2_2/Lab2_2.srcs/sim_1/new/multiplier_tb.v:8]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port load [E:/166 Lab/2_2/multiplier.v:15]
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "E:/166 Lab/2_2/multiplier.v" Line 1. Module multiplier doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/166 Lab/2_2/ph.v" Line 1. Module ph doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/166 Lab/2_2/pl.v" Line 1. Module pl doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/166 Lab/2_2/dffa.v" Line 1. Module dffa doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/166 Lab/2_2/dffb.v" Line 1. Module dffb doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/166 Lab/2_2/MUX2_1.v" Line 1. Module MUX2_1 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/166 Lab/2_2/adder.v" Line 1. Module adder doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.ph
+Compiling module xil_defaultlib.pl
+Compiling module xil_defaultlib.dffa
+Compiling module xil_defaultlib.dffb
+Compiling module xil_defaultlib.MUX2_1
+Compiling module xil_defaultlib.adder
+Compiling module xil_defaultlib.multiplier
+Compiling module xil_defaultlib.multiplier_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot multiplier_tb_behav
+
+****** Webtalk v2017.2 (64-bit)
+  **** SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+  **** IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+source E:/166 -notrace
+invalid command name "%"
+    while executing
+"% Total    % Received % Xferd  Average Speed   Time    Time     Time  Current"
+    (file "E:/166" line 1)
+INFO: [Common 17-206] Exiting Webtalk at Wed Feb 21 14:22:14 2018...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:08 . Memory (MB): peak = 824.043 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '8' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/166 Lab/2_2/Lab2_2/Lab2_2.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "multiplier_tb_behav -key {Behavioral:sim_1:Functional:multiplier_tb} -tclbatch {multiplier_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2017.2
+Time resolution is 1 ps
+source multiplier_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'multiplier_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:14 . Memory (MB): peak = 828.266 ; gain = 4.223
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory E:/166 Lab/2_2/Lab2_2/Lab2_2.runs/synth_1
+
+launch_runs synth_1 -jobs 4
+[Wed Feb 21 14:24:43 2018] Launched synth_1...
+Run output will be captured here: E:/166 Lab/2_2/Lab2_2/Lab2_2.runs/synth_1/runme.log
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'multiplier_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/166 Lab/2_2/Lab2_2/Lab2_2.sim/sim_1/behav'
+"xvlog -m64 --relax -prj multiplier_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/166 Lab/2_2/MUX2_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX2_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/166 Lab/2_2/adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/166 Lab/2_2/dffa.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dffa
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/166 Lab/2_2/dffb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dffb
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/166 Lab/2_2/multiplier.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplier
+INFO: [VRFC 10-2458] undeclared symbol d0, assumed default net type wire [E:/166 Lab/2_2/multiplier.v:11]
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/166 Lab/2_2/ph.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ph
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/166 Lab/2_2/pl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pl
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/166 Lab/2_2/Lab2_2/Lab2_2.srcs/sim_1/new/multiplier_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplier_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/166 Lab/2_2/Lab2_2/Lab2_2.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/166 Lab/2_2/Lab2_2/Lab2_2.sim/sim_1/behav'
+Vivado Simulator 2017.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2017.2/bin/unwrapped/win64.o/xelab.exe -wto 41d621a2a11a44cab3370cfff6b0870d --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot multiplier_tb_behav xil_defaultlib.multiplier_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 8 for port out [E:/166 Lab/2_2/Lab2_2/Lab2_2.srcs/sim_1/new/multiplier_tb.v:8]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port load [E:/166 Lab/2_2/multiplier.v:15]
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 4 for port d0 [E:/166 Lab/2_2/multiplier.v:21]
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "E:/166 Lab/2_2/multiplier.v" Line 1. Module multiplier doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/166 Lab/2_2/ph.v" Line 1. Module ph doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/166 Lab/2_2/pl.v" Line 1. Module pl doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/166 Lab/2_2/dffa.v" Line 1. Module dffa doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/166 Lab/2_2/dffb.v" Line 1. Module dffb doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/166 Lab/2_2/MUX2_1.v" Line 1. Module MUX2_1 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/166 Lab/2_2/adder.v" Line 1. Module adder doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.ph
+Compiling module xil_defaultlib.pl
+Compiling module xil_defaultlib.dffa
+Compiling module xil_defaultlib.dffb
+Compiling module xil_defaultlib.MUX2_1
+Compiling module xil_defaultlib.adder
+Compiling module xil_defaultlib.multiplier
+Compiling module xil_defaultlib.multiplier_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot multiplier_tb_behav
+
+****** Webtalk v2017.2 (64-bit)
+  **** SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+  **** IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+source E:/166 -notrace
+invalid command name "%"
+    while executing
+"% Total    % Received % Xferd  Average Speed   Time    Time     Time  Current"
+    (file "E:/166" line 1)
+INFO: [Common 17-206] Exiting Webtalk at Wed Feb 21 14:25:46 2018...
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/166 Lab/2_2/Lab2_2/Lab2_2.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "multiplier_tb_behav -key {Behavioral:sim_1:Functional:multiplier_tb} -tclbatch {multiplier_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2017.2
+Time resolution is 1 ps
+source multiplier_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'multiplier_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:09 . Memory (MB): peak = 853.023 ; gain = 8.512
+add_bp {E:/166 Lab/2_2/multiplier.v} 11
+remove_bps -file {E:/166 Lab/2_2/multiplier.v} -line 11
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory E:/166 Lab/2_2/Lab2_2/Lab2_2.runs/synth_1
+
+launch_runs synth_1 -jobs 4
+[Wed Feb 21 14:39:11 2018] Launched synth_1...
+Run output will be captured here: E:/166 Lab/2_2/Lab2_2/Lab2_2.runs/synth_1/runme.log
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'multiplier_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/166 Lab/2_2/Lab2_2/Lab2_2.sim/sim_1/behav'
+"xvlog -m64 --relax -prj multiplier_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/166 Lab/2_2/MUX2_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX2_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/166 Lab/2_2/adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/166 Lab/2_2/dffa.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dffa
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/166 Lab/2_2/dffb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dffb
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/166 Lab/2_2/multiplier.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplier
+INFO: [VRFC 10-2458] undeclared symbol d0, assumed default net type wire [E:/166 Lab/2_2/multiplier.v:13]
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/166 Lab/2_2/ph.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ph
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/166 Lab/2_2/pl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pl
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/166 Lab/2_2/Lab2_2/Lab2_2.srcs/sim_1/new/multiplier_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplier_tb
+INFO: [VRFC 10-2458] undeclared symbol qatemp_tb, assumed default net type wire [E:/166 Lab/2_2/Lab2_2/Lab2_2.srcs/sim_1/new/multiplier_tb.v:8]
+INFO: [VRFC 10-2458] undeclared symbol qbtemp_tb, assumed default net type wire [E:/166 Lab/2_2/Lab2_2/Lab2_2.srcs/sim_1/new/multiplier_tb.v:8]
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/166 Lab/2_2/Lab2_2/Lab2_2.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/166 Lab/2_2/Lab2_2/Lab2_2.sim/sim_1/behav'
+Vivado Simulator 2017.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2017.2/bin/unwrapped/win64.o/xelab.exe -wto 41d621a2a11a44cab3370cfff6b0870d --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot multiplier_tb_behav xil_defaultlib.multiplier_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 8 for port out [E:/166 Lab/2_2/Lab2_2/Lab2_2.srcs/sim_1/new/multiplier_tb.v:8]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port load [E:/166 Lab/2_2/multiplier.v:17]
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 4 for port d0 [E:/166 Lab/2_2/multiplier.v:23]
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "E:/166 Lab/2_2/multiplier.v" Line 1. Module multiplier doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/166 Lab/2_2/ph.v" Line 1. Module ph doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/166 Lab/2_2/pl.v" Line 1. Module pl doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/166 Lab/2_2/dffa.v" Line 1. Module dffa doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/166 Lab/2_2/dffb.v" Line 1. Module dffb doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/166 Lab/2_2/MUX2_1.v" Line 1. Module MUX2_1 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/166 Lab/2_2/adder.v" Line 1. Module adder doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.ph
+Compiling module xil_defaultlib.pl
+Compiling module xil_defaultlib.dffa
+Compiling module xil_defaultlib.dffb
+Compiling module xil_defaultlib.MUX2_1
+Compiling module xil_defaultlib.adder
+Compiling module xil_defaultlib.multiplier
+Compiling module xil_defaultlib.multiplier_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot multiplier_tb_behav
+
+****** Webtalk v2017.2 (64-bit)
+  **** SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+  **** IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+source E:/166 -notrace
+invalid command name "%"
+    while executing
+"% Total    % Received % Xferd  Average Speed   Time    Time     Time  Current"
+    (file "E:/166" line 1)
+INFO: [Common 17-206] Exiting Webtalk at Wed Feb 21 14:40:03 2018...
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/166 Lab/2_2/Lab2_2/Lab2_2.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "multiplier_tb_behav -key {Behavioral:sim_1:Functional:multiplier_tb} -tclbatch {multiplier_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2017.2
+Time resolution is 1 ps
+source multiplier_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'multiplier_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:09 . Memory (MB): peak = 866.758 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'multiplier_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/166 Lab/2_2/Lab2_2/Lab2_2.sim/sim_1/behav'
+"xvlog -m64 --relax -prj multiplier_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/166 Lab/2_2/MUX2_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX2_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/166 Lab/2_2/adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/166 Lab/2_2/dffa.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dffa
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/166 Lab/2_2/dffb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dffb
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/166 Lab/2_2/multiplier.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplier
+INFO: [VRFC 10-2458] undeclared symbol d0, assumed default net type wire [E:/166 Lab/2_2/multiplier.v:13]
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/166 Lab/2_2/ph.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ph
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/166 Lab/2_2/pl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pl
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/166 Lab/2_2/Lab2_2/Lab2_2.srcs/sim_1/new/multiplier_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplier_tb
+INFO: [VRFC 10-2458] undeclared symbol qatemp_tb, assumed default net type wire [E:/166 Lab/2_2/Lab2_2/Lab2_2.srcs/sim_1/new/multiplier_tb.v:8]
+INFO: [VRFC 10-2458] undeclared symbol qbtemp_tb, assumed default net type wire [E:/166 Lab/2_2/Lab2_2/Lab2_2.srcs/sim_1/new/multiplier_tb.v:8]
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/166 Lab/2_2/Lab2_2/Lab2_2.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/166 Lab/2_2/Lab2_2/Lab2_2.sim/sim_1/behav'
+Vivado Simulator 2017.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2017.2/bin/unwrapped/win64.o/xelab.exe -wto 41d621a2a11a44cab3370cfff6b0870d --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot multiplier_tb_behav xil_defaultlib.multiplier_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 8 for port out [E:/166 Lab/2_2/Lab2_2/Lab2_2.srcs/sim_1/new/multiplier_tb.v:8]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port load [E:/166 Lab/2_2/multiplier.v:17]
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 4 for port d0 [E:/166 Lab/2_2/multiplier.v:23]
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "E:/166 Lab/2_2/multiplier.v" Line 1. Module multiplier doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/166 Lab/2_2/ph.v" Line 1. Module ph doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/166 Lab/2_2/pl.v" Line 1. Module pl doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/166 Lab/2_2/dffa.v" Line 1. Module dffa doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/166 Lab/2_2/dffb.v" Line 1. Module dffb doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/166 Lab/2_2/MUX2_1.v" Line 1. Module MUX2_1 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/166 Lab/2_2/adder.v" Line 1. Module adder doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.ph
+Compiling module xil_defaultlib.pl
+Compiling module xil_defaultlib.dffa
+Compiling module xil_defaultlib.dffb
+Compiling module xil_defaultlib.MUX2_1
+Compiling module xil_defaultlib.adder
+Compiling module xil_defaultlib.multiplier
+Compiling module xil_defaultlib.multiplier_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot multiplier_tb_behav
+
+****** Webtalk v2017.2 (64-bit)
+  **** SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+  **** IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+source E:/166 -notrace
+invalid command name "%"
+    while executing
+"% Total    % Received % Xferd  Average Speed   Time    Time     Time  Current"
+    (file "E:/166" line 1)
+INFO: [Common 17-206] Exiting Webtalk at Wed Feb 21 14:43:28 2018...
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/166 Lab/2_2/Lab2_2/Lab2_2.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "multiplier_tb_behav -key {Behavioral:sim_1:Functional:multiplier_tb} -tclbatch {multiplier_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2017.2
+Time resolution is 1 ps
+source multiplier_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'multiplier_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:08 . Memory (MB): peak = 866.758 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'multiplier_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/166 Lab/2_2/Lab2_2/Lab2_2.sim/sim_1/behav'
+"xvlog -m64 --relax -prj multiplier_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/166 Lab/2_2/MUX2_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX2_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/166 Lab/2_2/adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/166 Lab/2_2/dffa.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dffa
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/166 Lab/2_2/dffb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dffb
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/166 Lab/2_2/multiplier.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplier
+INFO: [VRFC 10-2458] undeclared symbol d0, assumed default net type wire [E:/166 Lab/2_2/multiplier.v:13]
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/166 Lab/2_2/ph.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ph
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/166 Lab/2_2/pl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pl
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/166 Lab/2_2/Lab2_2/Lab2_2.srcs/sim_1/new/multiplier_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplier_tb
+INFO: [VRFC 10-2458] undeclared symbol qatemp_tb, assumed default net type wire [E:/166 Lab/2_2/Lab2_2/Lab2_2.srcs/sim_1/new/multiplier_tb.v:8]
+INFO: [VRFC 10-2458] undeclared symbol qbtemp_tb, assumed default net type wire [E:/166 Lab/2_2/Lab2_2/Lab2_2.srcs/sim_1/new/multiplier_tb.v:8]
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/166 Lab/2_2/Lab2_2/Lab2_2.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/166 Lab/2_2/Lab2_2/Lab2_2.sim/sim_1/behav'
+Vivado Simulator 2017.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2017.2/bin/unwrapped/win64.o/xelab.exe -wto 41d621a2a11a44cab3370cfff6b0870d --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot multiplier_tb_behav xil_defaultlib.multiplier_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 8 for port out [E:/166 Lab/2_2/Lab2_2/Lab2_2.srcs/sim_1/new/multiplier_tb.v:8]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port load [E:/166 Lab/2_2/multiplier.v:17]
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 4 for port d0 [E:/166 Lab/2_2/multiplier.v:23]
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "E:/166 Lab/2_2/multiplier.v" Line 1. Module multiplier doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/166 Lab/2_2/ph.v" Line 1. Module ph doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/166 Lab/2_2/pl.v" Line 1. Module pl doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/166 Lab/2_2/dffa.v" Line 1. Module dffa doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/166 Lab/2_2/dffb.v" Line 1. Module dffb doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/166 Lab/2_2/MUX2_1.v" Line 1. Module MUX2_1 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/166 Lab/2_2/adder.v" Line 1. Module adder doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.ph
+Compiling module xil_defaultlib.pl
+Compiling module xil_defaultlib.dffa
+Compiling module xil_defaultlib.dffb
+Compiling module xil_defaultlib.MUX2_1
+Compiling module xil_defaultlib.adder
+Compiling module xil_defaultlib.multiplier
+Compiling module xil_defaultlib.multiplier_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot multiplier_tb_behav
+
+****** Webtalk v2017.2 (64-bit)
+  **** SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+  **** IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+source E:/166 -notrace
+invalid command name "%"
+    while executing
+"% Total    % Received % Xferd  Average Speed   Time    Time     Time  Current"
+    (file "E:/166" line 1)
+INFO: [Common 17-206] Exiting Webtalk at Wed Feb 21 14:44:21 2018...
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/166 Lab/2_2/Lab2_2/Lab2_2.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "multiplier_tb_behav -key {Behavioral:sim_1:Functional:multiplier_tb} -tclbatch {multiplier_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2017.2
+Time resolution is 1 ps
+source multiplier_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'multiplier_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:08 . Memory (MB): peak = 866.758 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'multiplier_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/166 Lab/2_2/Lab2_2/Lab2_2.sim/sim_1/behav'
+"xvlog -m64 --relax -prj multiplier_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/166 Lab/2_2/MUX2_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX2_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/166 Lab/2_2/adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/166 Lab/2_2/dffa.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dffa
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/166 Lab/2_2/dffb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dffb
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/166 Lab/2_2/multiplier.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplier
+INFO: [VRFC 10-2458] undeclared symbol d0, assumed default net type wire [E:/166 Lab/2_2/multiplier.v:13]
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/166 Lab/2_2/ph.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ph
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/166 Lab/2_2/pl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pl
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/166 Lab/2_2/Lab2_2/Lab2_2.srcs/sim_1/new/multiplier_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplier_tb
+INFO: [VRFC 10-2458] undeclared symbol qatemp_tb, assumed default net type wire [E:/166 Lab/2_2/Lab2_2/Lab2_2.srcs/sim_1/new/multiplier_tb.v:8]
+INFO: [VRFC 10-2458] undeclared symbol qbtemp_tb, assumed default net type wire [E:/166 Lab/2_2/Lab2_2/Lab2_2.srcs/sim_1/new/multiplier_tb.v:8]
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/166 Lab/2_2/Lab2_2/Lab2_2.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/166 Lab/2_2/Lab2_2/Lab2_2.sim/sim_1/behav'
+Vivado Simulator 2017.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2017.2/bin/unwrapped/win64.o/xelab.exe -wto 41d621a2a11a44cab3370cfff6b0870d --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot multiplier_tb_behav xil_defaultlib.multiplier_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 8 for port out [E:/166 Lab/2_2/Lab2_2/Lab2_2.srcs/sim_1/new/multiplier_tb.v:8]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port load [E:/166 Lab/2_2/multiplier.v:17]
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 4 for port d0 [E:/166 Lab/2_2/multiplier.v:23]
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "E:/166 Lab/2_2/multiplier.v" Line 1. Module multiplier doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/166 Lab/2_2/ph.v" Line 1. Module ph doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/166 Lab/2_2/pl.v" Line 1. Module pl doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/166 Lab/2_2/dffa.v" Line 1. Module dffa doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/166 Lab/2_2/dffb.v" Line 1. Module dffb doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/166 Lab/2_2/MUX2_1.v" Line 1. Module MUX2_1 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/166 Lab/2_2/adder.v" Line 1. Module adder doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.ph
+Compiling module xil_defaultlib.pl
+Compiling module xil_defaultlib.dffa
+Compiling module xil_defaultlib.dffb
+Compiling module xil_defaultlib.MUX2_1
+Compiling module xil_defaultlib.adder
+Compiling module xil_defaultlib.multiplier
+Compiling module xil_defaultlib.multiplier_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot multiplier_tb_behav
+
+****** Webtalk v2017.2 (64-bit)
+  **** SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+  **** IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+source E:/166 -notrace
+invalid command name "%"
+    while executing
+"% Total    % Received % Xferd  Average Speed   Time    Time     Time  Current"
+    (file "E:/166" line 1)
+INFO: [Common 17-206] Exiting Webtalk at Wed Feb 21 14:47:21 2018...
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/166 Lab/2_2/Lab2_2/Lab2_2.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "multiplier_tb_behav -key {Behavioral:sim_1:Functional:multiplier_tb} -tclbatch {multiplier_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2017.2
+Time resolution is 1 ps
+source multiplier_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'multiplier_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:08 . Memory (MB): peak = 866.758 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'multiplier_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/166 Lab/2_2/Lab2_2/Lab2_2.sim/sim_1/behav'
+"xvlog -m64 --relax -prj multiplier_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/166 Lab/2_2/MUX2_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX2_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/166 Lab/2_2/adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/166 Lab/2_2/dffa.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dffa
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/166 Lab/2_2/dffb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dffb
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/166 Lab/2_2/multiplier.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplier
+INFO: [VRFC 10-2458] undeclared symbol d0, assumed default net type wire [E:/166 Lab/2_2/multiplier.v:13]
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/166 Lab/2_2/ph.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ph
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/166 Lab/2_2/pl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pl
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/166 Lab/2_2/Lab2_2/Lab2_2.srcs/sim_1/new/multiplier_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplier_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/166 Lab/2_2/Lab2_2/Lab2_2.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/166 Lab/2_2/Lab2_2/Lab2_2.sim/sim_1/behav'
+Vivado Simulator 2017.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2017.2/bin/unwrapped/win64.o/xelab.exe -wto 41d621a2a11a44cab3370cfff6b0870d --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot multiplier_tb_behav xil_defaultlib.multiplier_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 8 for port out [E:/166 Lab/2_2/Lab2_2/Lab2_2.srcs/sim_1/new/multiplier_tb.v:8]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port load [E:/166 Lab/2_2/multiplier.v:17]
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 4 for port d0 [E:/166 Lab/2_2/multiplier.v:23]
+ERROR: [VRFC 10-529] concurrent assignment to a non-net qatemp_tb is not permitted [E:/166 Lab/2_2/Lab2_2/Lab2_2.srcs/sim_1/new/multiplier_tb.v:8]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'E:/166 Lab/2_2/Lab2_2/Lab2_2.sim/sim_1/behav/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'E:/166 Lab/2_2/Lab2_2/Lab2_2.sim/sim_1/behav/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'multiplier_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/166 Lab/2_2/Lab2_2/Lab2_2.sim/sim_1/behav'
+"xvlog -m64 --relax -prj multiplier_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/166 Lab/2_2/MUX2_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX2_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/166 Lab/2_2/adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/166 Lab/2_2/dffa.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dffa
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/166 Lab/2_2/dffb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dffb
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/166 Lab/2_2/multiplier.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplier
+INFO: [VRFC 10-2458] undeclared symbol d0, assumed default net type wire [E:/166 Lab/2_2/multiplier.v:13]
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/166 Lab/2_2/ph.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ph
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/166 Lab/2_2/pl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pl
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/166 Lab/2_2/Lab2_2/Lab2_2.srcs/sim_1/new/multiplier_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplier_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/166 Lab/2_2/Lab2_2/Lab2_2.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/166 Lab/2_2/Lab2_2/Lab2_2.sim/sim_1/behav'
+Vivado Simulator 2017.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2017.2/bin/unwrapped/win64.o/xelab.exe -wto 41d621a2a11a44cab3370cfff6b0870d --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot multiplier_tb_behav xil_defaultlib.multiplier_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 8 for port out [E:/166 Lab/2_2/Lab2_2/Lab2_2.srcs/sim_1/new/multiplier_tb.v:9]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port load [E:/166 Lab/2_2/multiplier.v:17]
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 4 for port d0 [E:/166 Lab/2_2/multiplier.v:23]
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "E:/166 Lab/2_2/multiplier.v" Line 1. Module multiplier doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/166 Lab/2_2/ph.v" Line 1. Module ph doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/166 Lab/2_2/pl.v" Line 1. Module pl doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/166 Lab/2_2/dffa.v" Line 1. Module dffa doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/166 Lab/2_2/dffb.v" Line 1. Module dffb doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/166 Lab/2_2/MUX2_1.v" Line 1. Module MUX2_1 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/166 Lab/2_2/adder.v" Line 1. Module adder doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.ph
+Compiling module xil_defaultlib.pl
+Compiling module xil_defaultlib.dffa
+Compiling module xil_defaultlib.dffb
+Compiling module xil_defaultlib.MUX2_1
+Compiling module xil_defaultlib.adder
+Compiling module xil_defaultlib.multiplier
+Compiling module xil_defaultlib.multiplier_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot multiplier_tb_behav
+
+****** Webtalk v2017.2 (64-bit)
+  **** SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+  **** IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+source E:/166 -notrace
+invalid command name "%"
+    while executing
+"% Total    % Received % Xferd  Average Speed   Time    Time     Time  Current"
+    (file "E:/166" line 1)
+INFO: [Common 17-206] Exiting Webtalk at Wed Feb 21 14:50:34 2018...
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/166 Lab/2_2/Lab2_2/Lab2_2.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "multiplier_tb_behav -key {Behavioral:sim_1:Functional:multiplier_tb} -tclbatch {multiplier_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2017.2
+Time resolution is 1 ps
+source multiplier_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'multiplier_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:08 . Memory (MB): peak = 866.758 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+[Wed Feb 21 14:59:06 2018] Launched synth_1...
+Run output will be captured here: E:/166 Lab/2_2/Lab2_2/Lab2_2.runs/synth_1/runme.log
+launch_simulation
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'multiplier_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/166 Lab/2_2/Lab2_2/Lab2_2.sim/sim_1/behav'
+"xvlog -m64 --relax -prj multiplier_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/166 Lab/2_2/MUX2_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX2_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/166 Lab/2_2/adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/166 Lab/2_2/dffa.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dffa
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/166 Lab/2_2/dffb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dffb
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/166 Lab/2_2/multiplier.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplier
+INFO: [VRFC 10-2458] undeclared symbol d0, assumed default net type wire [E:/166 Lab/2_2/multiplier.v:13]
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/166 Lab/2_2/ph.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ph
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/166 Lab/2_2/pl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pl
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/166 Lab/2_2/Lab2_2/Lab2_2.srcs/sim_1/new/multiplier_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplier_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/166 Lab/2_2/Lab2_2/Lab2_2.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/166 Lab/2_2/Lab2_2/Lab2_2.sim/sim_1/behav'
+Vivado Simulator 2017.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2017.2/bin/unwrapped/win64.o/xelab.exe -wto 41d621a2a11a44cab3370cfff6b0870d --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot multiplier_tb_behav xil_defaultlib.multiplier_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 8 for port out [E:/166 Lab/2_2/Lab2_2/Lab2_2.srcs/sim_1/new/multiplier_tb.v:9]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port load [E:/166 Lab/2_2/multiplier.v:17]
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 4 for port d0 [E:/166 Lab/2_2/multiplier.v:23]
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "E:/166 Lab/2_2/multiplier.v" Line 1. Module multiplier doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/166 Lab/2_2/ph.v" Line 1. Module ph doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/166 Lab/2_2/pl.v" Line 1. Module pl doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/166 Lab/2_2/dffa.v" Line 1. Module dffa doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/166 Lab/2_2/dffb.v" Line 1. Module dffb doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/166 Lab/2_2/MUX2_1.v" Line 1. Module MUX2_1 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/166 Lab/2_2/adder.v" Line 1. Module adder doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.ph
+Compiling module xil_defaultlib.pl
+Compiling module xil_defaultlib.dffa
+Compiling module xil_defaultlib.dffb
+Compiling module xil_defaultlib.MUX2_1
+Compiling module xil_defaultlib.adder
+Compiling module xil_defaultlib.multiplier
+Compiling module xil_defaultlib.multiplier_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot multiplier_tb_behav
+
+****** Webtalk v2017.2 (64-bit)
+  **** SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+  **** IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+source E:/166 -notrace
+invalid command name "%"
+    while executing
+"% Total    % Received % Xferd  Average Speed   Time    Time     Time  Current"
+    (file "E:/166" line 1)
+INFO: [Common 17-206] Exiting Webtalk at Wed Feb 21 14:59:56 2018...
+INFO: [USF-XSim-69] 'elaborate' step finished in '5' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/166 Lab/2_2/Lab2_2/Lab2_2.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "multiplier_tb_behav -key {Behavioral:sim_1:Functional:multiplier_tb} -tclbatch {multiplier_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2017.2
+Time resolution is 1 ps
+source multiplier_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'multiplier_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:09 . Memory (MB): peak = 878.180 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+[Wed Feb 21 15:02:13 2018] Launched synth_1...
+Run output will be captured here: E:/166 Lab/2_2/Lab2_2/Lab2_2.runs/synth_1/runme.log
+launch_simulation
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'multiplier_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/166 Lab/2_2/Lab2_2/Lab2_2.sim/sim_1/behav'
+"xvlog -m64 --relax -prj multiplier_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/166 Lab/2_2/MUX2_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX2_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/166 Lab/2_2/adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/166 Lab/2_2/dffa.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dffa
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/166 Lab/2_2/dffb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dffb
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/166 Lab/2_2/multiplier.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplier
+INFO: [VRFC 10-2458] undeclared symbol d0, assumed default net type wire [E:/166 Lab/2_2/multiplier.v:13]
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/166 Lab/2_2/ph.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ph
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/166 Lab/2_2/pl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pl
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/166 Lab/2_2/Lab2_2/Lab2_2.srcs/sim_1/new/multiplier_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplier_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/166 Lab/2_2/Lab2_2/Lab2_2.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/166 Lab/2_2/Lab2_2/Lab2_2.sim/sim_1/behav'
+Vivado Simulator 2017.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2017.2/bin/unwrapped/win64.o/xelab.exe -wto 41d621a2a11a44cab3370cfff6b0870d --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot multiplier_tb_behav xil_defaultlib.multiplier_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 8 for port out [E:/166 Lab/2_2/Lab2_2/Lab2_2.srcs/sim_1/new/multiplier_tb.v:9]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port load [E:/166 Lab/2_2/multiplier.v:17]
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 4 for port d0 [E:/166 Lab/2_2/multiplier.v:23]
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "E:/166 Lab/2_2/multiplier.v" Line 1. Module multiplier doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/166 Lab/2_2/ph.v" Line 1. Module ph doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/166 Lab/2_2/pl.v" Line 1. Module pl doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/166 Lab/2_2/dffa.v" Line 1. Module dffa doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/166 Lab/2_2/dffb.v" Line 1. Module dffb doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/166 Lab/2_2/MUX2_1.v" Line 1. Module MUX2_1 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/166 Lab/2_2/adder.v" Line 1. Module adder doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.ph
+Compiling module xil_defaultlib.pl
+Compiling module xil_defaultlib.dffa
+Compiling module xil_defaultlib.dffb
+Compiling module xil_defaultlib.MUX2_1
+Compiling module xil_defaultlib.adder
+Compiling module xil_defaultlib.multiplier
+Compiling module xil_defaultlib.multiplier_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot multiplier_tb_behav
+
+****** Webtalk v2017.2 (64-bit)
+  **** SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+  **** IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+source E:/166 -notrace
+invalid command name "%"
+    while executing
+"% Total    % Received % Xferd  Average Speed   Time    Time     Time  Current"
+    (file "E:/166" line 1)
+INFO: [Common 17-206] Exiting Webtalk at Wed Feb 21 15:02:59 2018...
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/166 Lab/2_2/Lab2_2/Lab2_2.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "multiplier_tb_behav -key {Behavioral:sim_1:Functional:multiplier_tb} -tclbatch {multiplier_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2017.2
+Time resolution is 1 ps
+source multiplier_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'multiplier_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:09 . Memory (MB): peak = 878.180 ; gain = 0.000
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory E:/166 Lab/2_2/Lab2_2/Lab2_2.runs/synth_1
+
+launch_runs synth_1 -jobs 4
+[Wed Feb 21 15:07:00 2018] Launched synth_1...
+Run output will be captured here: E:/166 Lab/2_2/Lab2_2/Lab2_2.runs/synth_1/runme.log
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'multiplier_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/166 Lab/2_2/Lab2_2/Lab2_2.sim/sim_1/behav'
+"xvlog -m64 --relax -prj multiplier_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/166 Lab/2_2/MUX2_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX2_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/166 Lab/2_2/adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/166 Lab/2_2/dffa.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dffa
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/166 Lab/2_2/dffb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dffb
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/166 Lab/2_2/multiplier.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplier
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/166 Lab/2_2/ph.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ph
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/166 Lab/2_2/pl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pl
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/166 Lab/2_2/Lab2_2/Lab2_2.srcs/sim_1/new/multiplier_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplier_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/166 Lab/2_2/Lab2_2/Lab2_2.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/166 Lab/2_2/Lab2_2/Lab2_2.sim/sim_1/behav'
+Vivado Simulator 2017.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2017.2/bin/unwrapped/win64.o/xelab.exe -wto 41d621a2a11a44cab3370cfff6b0870d --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot multiplier_tb_behav xil_defaultlib.multiplier_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 8 for port out [E:/166 Lab/2_2/Lab2_2/Lab2_2.srcs/sim_1/new/multiplier_tb.v:9]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port load [E:/166 Lab/2_2/multiplier.v:17]
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "E:/166 Lab/2_2/multiplier.v" Line 1. Module multiplier doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/166 Lab/2_2/ph.v" Line 1. Module ph doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/166 Lab/2_2/pl.v" Line 1. Module pl doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/166 Lab/2_2/dffa.v" Line 1. Module dffa doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/166 Lab/2_2/dffb.v" Line 1. Module dffb doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/166 Lab/2_2/MUX2_1.v" Line 1. Module MUX2_1 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/166 Lab/2_2/adder.v" Line 1. Module adder doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.ph
+Compiling module xil_defaultlib.pl
+Compiling module xil_defaultlib.dffa
+Compiling module xil_defaultlib.dffb
+Compiling module xil_defaultlib.MUX2_1
+Compiling module xil_defaultlib.adder
+Compiling module xil_defaultlib.multiplier
+Compiling module xil_defaultlib.multiplier_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot multiplier_tb_behav
+
+****** Webtalk v2017.2 (64-bit)
+  **** SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+  **** IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+source E:/166 -notrace
+invalid command name "%"
+    while executing
+"% Total    % Received % Xferd  Average Speed   Time    Time     Time  Current"
+    (file "E:/166" line 1)
+INFO: [Common 17-206] Exiting Webtalk at Wed Feb 21 15:07:51 2018...
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/166 Lab/2_2/Lab2_2/Lab2_2.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "multiplier_tb_behav -key {Behavioral:sim_1:Functional:multiplier_tb} -tclbatch {multiplier_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2017.2
+Time resolution is 1 ps
+source multiplier_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'multiplier_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:09 . Memory (MB): peak = 878.180 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'multiplier_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/166 Lab/2_2/Lab2_2/Lab2_2.sim/sim_1/behav'
+"xvlog -m64 --relax -prj multiplier_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/166 Lab/2_2/MUX2_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX2_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/166 Lab/2_2/adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/166 Lab/2_2/dffa.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dffa
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/166 Lab/2_2/dffb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dffb
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/166 Lab/2_2/multiplier.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplier
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/166 Lab/2_2/ph.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ph
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/166 Lab/2_2/pl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pl
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/166 Lab/2_2/Lab2_2/Lab2_2.srcs/sim_1/new/multiplier_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplier_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/166 Lab/2_2/Lab2_2/Lab2_2.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/166 Lab/2_2/Lab2_2/Lab2_2.sim/sim_1/behav'
+Vivado Simulator 2017.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2017.2/bin/unwrapped/win64.o/xelab.exe -wto 41d621a2a11a44cab3370cfff6b0870d --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot multiplier_tb_behav xil_defaultlib.multiplier_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 8 for port out [E:/166 Lab/2_2/Lab2_2/Lab2_2.srcs/sim_1/new/multiplier_tb.v:9]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port load [E:/166 Lab/2_2/multiplier.v:17]
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "E:/166 Lab/2_2/multiplier.v" Line 1. Module multiplier doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/166 Lab/2_2/ph.v" Line 1. Module ph doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/166 Lab/2_2/pl.v" Line 1. Module pl doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/166 Lab/2_2/dffa.v" Line 1. Module dffa doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/166 Lab/2_2/dffb.v" Line 1. Module dffb doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/166 Lab/2_2/MUX2_1.v" Line 1. Module MUX2_1 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/166 Lab/2_2/adder.v" Line 1. Module adder doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.ph
+Compiling module xil_defaultlib.pl
+Compiling module xil_defaultlib.dffa
+Compiling module xil_defaultlib.dffb
+Compiling module xil_defaultlib.MUX2_1
+Compiling module xil_defaultlib.adder
+Compiling module xil_defaultlib.multiplier
+Compiling module xil_defaultlib.multiplier_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot multiplier_tb_behav
+
+****** Webtalk v2017.2 (64-bit)
+  **** SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+  **** IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+source E:/166 -notrace
+invalid command name "%"
+    while executing
+"% Total    % Received % Xferd  Average Speed   Time    Time     Time  Current"
+    (file "E:/166" line 1)
+INFO: [Common 17-206] Exiting Webtalk at Wed Feb 21 15:11:06 2018...
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/166 Lab/2_2/Lab2_2/Lab2_2.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "multiplier_tb_behav -key {Behavioral:sim_1:Functional:multiplier_tb} -tclbatch {multiplier_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2017.2
+Time resolution is 1 ps
+source multiplier_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'multiplier_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:09 . Memory (MB): peak = 878.180 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+[Wed Feb 21 15:18:11 2018] Launched synth_1...
+Run output will be captured here: E:/166 Lab/2_2/Lab2_2/Lab2_2.runs/synth_1/runme.log
+launch_simulation
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'multiplier_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/166 Lab/2_2/Lab2_2/Lab2_2.sim/sim_1/behav'
+"xvlog -m64 --relax -prj multiplier_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/166 Lab/2_2/MUX2_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX2_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/166 Lab/2_2/adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/166 Lab/2_2/dffa.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dffa
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/166 Lab/2_2/dffb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dffb
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/166 Lab/2_2/multiplier.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplier
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/166 Lab/2_2/ph.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ph
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/166 Lab/2_2/pl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pl
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/166 Lab/2_2/Lab2_2/Lab2_2.srcs/sim_1/new/multiplier_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplier_tb
+INFO: [VRFC 10-2458] undeclared symbol plwtemp_tb, assumed default net type wire [E:/166 Lab/2_2/Lab2_2/Lab2_2.srcs/sim_1/new/multiplier_tb.v:9]
+INFO: [VRFC 10-2458] undeclared symbol phwtemp_tb, assumed default net type wire [E:/166 Lab/2_2/Lab2_2/Lab2_2.srcs/sim_1/new/multiplier_tb.v:9]
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/166 Lab/2_2/Lab2_2/Lab2_2.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/166 Lab/2_2/Lab2_2/Lab2_2.sim/sim_1/behav'
+Vivado Simulator 2017.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2017.2/bin/unwrapped/win64.o/xelab.exe -wto 41d621a2a11a44cab3370cfff6b0870d --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot multiplier_tb_behav xil_defaultlib.multiplier_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 8 for port out [E:/166 Lab/2_2/Lab2_2/Lab2_2.srcs/sim_1/new/multiplier_tb.v:9]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port load [E:/166 Lab/2_2/multiplier.v:17]
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "E:/166 Lab/2_2/multiplier.v" Line 1. Module multiplier doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/166 Lab/2_2/ph.v" Line 1. Module ph doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/166 Lab/2_2/pl.v" Line 1. Module pl doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/166 Lab/2_2/dffa.v" Line 1. Module dffa doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/166 Lab/2_2/dffb.v" Line 1. Module dffb doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/166 Lab/2_2/MUX2_1.v" Line 1. Module MUX2_1 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/166 Lab/2_2/adder.v" Line 1. Module adder doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.ph
+Compiling module xil_defaultlib.pl
+Compiling module xil_defaultlib.dffa
+Compiling module xil_defaultlib.dffb
+Compiling module xil_defaultlib.MUX2_1
+Compiling module xil_defaultlib.adder
+Compiling module xil_defaultlib.multiplier
+Compiling module xil_defaultlib.multiplier_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot multiplier_tb_behav
+
+****** Webtalk v2017.2 (64-bit)
+  **** SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+  **** IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+source E:/166 -notrace
+invalid command name "%"
+    while executing
+"% Total    % Received % Xferd  Average Speed   Time    Time     Time  Current"
+    (file "E:/166" line 1)
+INFO: [Common 17-206] Exiting Webtalk at Wed Feb 21 15:18:54 2018...
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/166 Lab/2_2/Lab2_2/Lab2_2.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "multiplier_tb_behav -key {Behavioral:sim_1:Functional:multiplier_tb} -tclbatch {multiplier_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2017.2
+Time resolution is 1 ps
+source multiplier_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'multiplier_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:00 ; elapsed = 00:00:09 . Memory (MB): peak = 970.844 ; gain = 1.352
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'multiplier_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/166 Lab/2_2/Lab2_2/Lab2_2.sim/sim_1/behav'
+"xvlog -m64 --relax -prj multiplier_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/166 Lab/2_2/MUX2_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX2_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/166 Lab/2_2/adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/166 Lab/2_2/dffa.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dffa
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/166 Lab/2_2/dffb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dffb
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/166 Lab/2_2/multiplier.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplier
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/166 Lab/2_2/ph.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ph
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/166 Lab/2_2/pl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pl
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/166 Lab/2_2/Lab2_2/Lab2_2.srcs/sim_1/new/multiplier_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplier_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/166 Lab/2_2/Lab2_2/Lab2_2.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/166 Lab/2_2/Lab2_2/Lab2_2.sim/sim_1/behav'
+Vivado Simulator 2017.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2017.2/bin/unwrapped/win64.o/xelab.exe -wto 41d621a2a11a44cab3370cfff6b0870d --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot multiplier_tb_behav xil_defaultlib.multiplier_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 8 for port out [E:/166 Lab/2_2/Lab2_2/Lab2_2.srcs/sim_1/new/multiplier_tb.v:9]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port load [E:/166 Lab/2_2/multiplier.v:17]
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "E:/166 Lab/2_2/multiplier.v" Line 1. Module multiplier doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/166 Lab/2_2/ph.v" Line 1. Module ph doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/166 Lab/2_2/pl.v" Line 1. Module pl doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/166 Lab/2_2/dffa.v" Line 1. Module dffa doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/166 Lab/2_2/dffb.v" Line 1. Module dffb doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/166 Lab/2_2/MUX2_1.v" Line 1. Module MUX2_1 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/166 Lab/2_2/adder.v" Line 1. Module adder doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.ph
+Compiling module xil_defaultlib.pl
+Compiling module xil_defaultlib.dffa
+Compiling module xil_defaultlib.dffb
+Compiling module xil_defaultlib.MUX2_1
+Compiling module xil_defaultlib.adder
+Compiling module xil_defaultlib.multiplier
+Compiling module xil_defaultlib.multiplier_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot multiplier_tb_behav
+
+****** Webtalk v2017.2 (64-bit)
+  **** SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+  **** IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+source E:/166 -notrace
+invalid command name "%"
+    while executing
+"% Total    % Received % Xferd  Average Speed   Time    Time     Time  Current"
+    (file "E:/166" line 1)
+INFO: [Common 17-206] Exiting Webtalk at Wed Feb 21 15:28:08 2018...
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/166 Lab/2_2/Lab2_2/Lab2_2.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "multiplier_tb_behav -key {Behavioral:sim_1:Functional:multiplier_tb} -tclbatch {multiplier_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2017.2
+Time resolution is 1 ps
+source multiplier_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'multiplier_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:09 . Memory (MB): peak = 982.262 ; gain = 4.129
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'multiplier_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/166 Lab/2_2/Lab2_2/Lab2_2.sim/sim_1/behav'
+"xvlog -m64 --relax -prj multiplier_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/166 Lab/2_2/MUX2_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX2_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/166 Lab/2_2/adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/166 Lab/2_2/dffa.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dffa
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/166 Lab/2_2/dffb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dffb
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/166 Lab/2_2/multiplier.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplier
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/166 Lab/2_2/ph.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ph
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/166 Lab/2_2/pl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pl
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/166 Lab/2_2/Lab2_2/Lab2_2.srcs/sim_1/new/multiplier_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplier_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/166 Lab/2_2/Lab2_2/Lab2_2.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/166 Lab/2_2/Lab2_2/Lab2_2.sim/sim_1/behav'
+Vivado Simulator 2017.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2017.2/bin/unwrapped/win64.o/xelab.exe -wto 41d621a2a11a44cab3370cfff6b0870d --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot multiplier_tb_behav xil_defaultlib.multiplier_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 8 for port out [E:/166 Lab/2_2/Lab2_2/Lab2_2.srcs/sim_1/new/multiplier_tb.v:9]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port load [E:/166 Lab/2_2/multiplier.v:17]
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "E:/166 Lab/2_2/multiplier.v" Line 1. Module multiplier doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/166 Lab/2_2/ph.v" Line 1. Module ph doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/166 Lab/2_2/pl.v" Line 1. Module pl doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/166 Lab/2_2/dffa.v" Line 1. Module dffa doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/166 Lab/2_2/dffb.v" Line 1. Module dffb doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/166 Lab/2_2/MUX2_1.v" Line 1. Module MUX2_1 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/166 Lab/2_2/adder.v" Line 1. Module adder doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.ph
+Compiling module xil_defaultlib.pl
+Compiling module xil_defaultlib.dffa
+Compiling module xil_defaultlib.dffb
+Compiling module xil_defaultlib.MUX2_1
+Compiling module xil_defaultlib.adder
+Compiling module xil_defaultlib.multiplier
+Compiling module xil_defaultlib.multiplier_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot multiplier_tb_behav
+
+****** Webtalk v2017.2 (64-bit)
+  **** SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+  **** IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+source E:/166 -notrace
+invalid command name "%"
+    while executing
+"% Total    % Received % Xferd  Average Speed   Time    Time     Time  Current"
+    (file "E:/166" line 1)
+INFO: [Common 17-206] Exiting Webtalk at Wed Feb 21 15:31:17 2018...
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/166 Lab/2_2/Lab2_2/Lab2_2.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "multiplier_tb_behav -key {Behavioral:sim_1:Functional:multiplier_tb} -tclbatch {multiplier_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2017.2
+Time resolution is 1 ps
+source multiplier_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'multiplier_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:09 . Memory (MB): peak = 982.262 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'multiplier_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/166 Lab/2_2/Lab2_2/Lab2_2.sim/sim_1/behav'
+"xvlog -m64 --relax -prj multiplier_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/166 Lab/2_2/MUX2_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX2_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/166 Lab/2_2/adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/166 Lab/2_2/dffa.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dffa
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/166 Lab/2_2/dffb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dffb
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/166 Lab/2_2/multiplier.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplier
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/166 Lab/2_2/ph.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ph
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/166 Lab/2_2/pl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pl
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/166 Lab/2_2/Lab2_2/Lab2_2.srcs/sim_1/new/multiplier_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplier_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/166 Lab/2_2/Lab2_2/Lab2_2.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/166 Lab/2_2/Lab2_2/Lab2_2.sim/sim_1/behav'
+Vivado Simulator 2017.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2017.2/bin/unwrapped/win64.o/xelab.exe -wto 41d621a2a11a44cab3370cfff6b0870d --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot multiplier_tb_behav xil_defaultlib.multiplier_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port load [E:/166 Lab/2_2/multiplier.v:17]
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "E:/166 Lab/2_2/multiplier.v" Line 1. Module multiplier doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/166 Lab/2_2/ph.v" Line 1. Module ph doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/166 Lab/2_2/pl.v" Line 1. Module pl doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/166 Lab/2_2/dffa.v" Line 1. Module dffa doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/166 Lab/2_2/dffb.v" Line 1. Module dffb doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/166 Lab/2_2/MUX2_1.v" Line 1. Module MUX2_1 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/166 Lab/2_2/adder.v" Line 1. Module adder doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.ph
+Compiling module xil_defaultlib.pl
+Compiling module xil_defaultlib.dffa
+Compiling module xil_defaultlib.dffb
+Compiling module xil_defaultlib.MUX2_1
+Compiling module xil_defaultlib.adder
+Compiling module xil_defaultlib.multiplier
+Compiling module xil_defaultlib.multiplier_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot multiplier_tb_behav
+
+****** Webtalk v2017.2 (64-bit)
+  **** SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+  **** IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+source E:/166 -notrace
+invalid command name "%"
+    while executing
+"% Total    % Received % Xferd  Average Speed   Time    Time     Time  Current"
+    (file "E:/166" line 1)
+INFO: [Common 17-206] Exiting Webtalk at Wed Feb 21 15:46:05 2018...
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/166 Lab/2_2/Lab2_2/Lab2_2.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "multiplier_tb_behav -key {Behavioral:sim_1:Functional:multiplier_tb} -tclbatch {multiplier_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2017.2
+Time resolution is 1 ps
+source multiplier_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'multiplier_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:08 . Memory (MB): peak = 982.563 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+[Wed Feb 21 15:53:59 2018] Launched synth_1...
+Run output will be captured here: E:/166 Lab/2_2/Lab2_2/Lab2_2.runs/synth_1/runme.log
+launch_simulation
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'multiplier_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/166 Lab/2_2/Lab2_2/Lab2_2.sim/sim_1/behav'
+"xvlog -m64 --relax -prj multiplier_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/166 Lab/2_2/MUX2_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX2_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/166 Lab/2_2/adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/166 Lab/2_2/dffa.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dffa
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/166 Lab/2_2/dffb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dffb
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/166 Lab/2_2/multiplier.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplier
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/166 Lab/2_2/ph.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ph
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/166 Lab/2_2/pl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pl
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/166 Lab/2_2/Lab2_2/Lab2_2.srcs/sim_1/new/multiplier_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplier_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/166 Lab/2_2/Lab2_2/Lab2_2.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/166 Lab/2_2/Lab2_2/Lab2_2.sim/sim_1/behav'
+Vivado Simulator 2017.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2017.2/bin/unwrapped/win64.o/xelab.exe -wto 41d621a2a11a44cab3370cfff6b0870d --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot multiplier_tb_behav xil_defaultlib.multiplier_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port load [E:/166 Lab/2_2/multiplier.v:18]
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "E:/166 Lab/2_2/multiplier.v" Line 1. Module multiplier doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/166 Lab/2_2/ph.v" Line 1. Module ph doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/166 Lab/2_2/pl.v" Line 1. Module pl doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/166 Lab/2_2/dffa.v" Line 1. Module dffa doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/166 Lab/2_2/dffb.v" Line 1. Module dffb doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/166 Lab/2_2/MUX2_1.v" Line 1. Module MUX2_1 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/166 Lab/2_2/adder.v" Line 1. Module adder doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.ph
+Compiling module xil_defaultlib.pl
+Compiling module xil_defaultlib.dffa
+Compiling module xil_defaultlib.dffb
+Compiling module xil_defaultlib.MUX2_1
+Compiling module xil_defaultlib.adder
+Compiling module xil_defaultlib.multiplier
+Compiling module xil_defaultlib.multiplier_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot multiplier_tb_behav
+
+****** Webtalk v2017.2 (64-bit)
+  **** SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+  **** IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+source E:/166 -notrace
+invalid command name "%"
+    while executing
+"% Total    % Received % Xferd  Average Speed   Time    Time     Time  Current"
+    (file "E:/166" line 1)
+INFO: [Common 17-206] Exiting Webtalk at Wed Feb 21 15:54:39 2018...
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/166 Lab/2_2/Lab2_2/Lab2_2.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "multiplier_tb_behav -key {Behavioral:sim_1:Functional:multiplier_tb} -tclbatch {multiplier_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2017.2
+Time resolution is 1 ps
+source multiplier_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'multiplier_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:09 . Memory (MB): peak = 995.766 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'multiplier_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/166 Lab/2_2/Lab2_2/Lab2_2.sim/sim_1/behav'
+"xvlog -m64 --relax -prj multiplier_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/166 Lab/2_2/MUX2_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX2_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/166 Lab/2_2/adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/166 Lab/2_2/dffa.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dffa
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/166 Lab/2_2/dffb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dffb
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/166 Lab/2_2/multiplier.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplier
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/166 Lab/2_2/ph.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ph
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/166 Lab/2_2/pl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pl
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/166 Lab/2_2/Lab2_2/Lab2_2.srcs/sim_1/new/multiplier_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplier_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/166 Lab/2_2/Lab2_2/Lab2_2.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/166 Lab/2_2/Lab2_2/Lab2_2.sim/sim_1/behav'
+Vivado Simulator 2017.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2017.2/bin/unwrapped/win64.o/xelab.exe -wto 41d621a2a11a44cab3370cfff6b0870d --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot multiplier_tb_behav xil_defaultlib.multiplier_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port load [E:/166 Lab/2_2/multiplier.v:18]
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "E:/166 Lab/2_2/multiplier.v" Line 1. Module multiplier doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/166 Lab/2_2/ph.v" Line 1. Module ph doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/166 Lab/2_2/pl.v" Line 1. Module pl doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/166 Lab/2_2/dffa.v" Line 1. Module dffa doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/166 Lab/2_2/dffb.v" Line 1. Module dffb doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/166 Lab/2_2/MUX2_1.v" Line 1. Module MUX2_1 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/166 Lab/2_2/adder.v" Line 1. Module adder doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.ph
+Compiling module xil_defaultlib.pl
+Compiling module xil_defaultlib.dffa
+Compiling module xil_defaultlib.dffb
+Compiling module xil_defaultlib.MUX2_1
+Compiling module xil_defaultlib.adder
+Compiling module xil_defaultlib.multiplier
+Compiling module xil_defaultlib.multiplier_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot multiplier_tb_behav
+
+****** Webtalk v2017.2 (64-bit)
+  **** SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+  **** IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+source E:/166 -notrace
+invalid command name "%"
+    while executing
+"% Total    % Received % Xferd  Average Speed   Time    Time     Time  Current"
+    (file "E:/166" line 1)
+INFO: [Common 17-206] Exiting Webtalk at Wed Feb 21 16:06:30 2018...
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/166 Lab/2_2/Lab2_2/Lab2_2.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "multiplier_tb_behav -key {Behavioral:sim_1:Functional:multiplier_tb} -tclbatch {multiplier_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2017.2
+Time resolution is 1 ps
+source multiplier_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'multiplier_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:09 . Memory (MB): peak = 995.766 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_project
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Feb 21 16:18:07 2018...

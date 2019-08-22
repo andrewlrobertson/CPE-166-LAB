@@ -1,0 +1,9 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  "../../../../approach2/clock_div.vhd"
+vhdl xil_defaultlib  "../../../../approach2/seven_segment.vhd"
+vhdl xil_defaultlib  "../../../../approach2/top.vhd"
+vhdl xil_defaultlib  "../../../../approach2/up_down_counter.vhd"
+vhdl xil_defaultlib  "../../../../approach2/her_tb4.vhd"
+
+# Do not sort compile order
+nosort

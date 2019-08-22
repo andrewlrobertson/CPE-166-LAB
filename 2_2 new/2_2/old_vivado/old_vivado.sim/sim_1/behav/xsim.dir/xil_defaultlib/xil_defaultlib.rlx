@@ -1,0 +1,16 @@
+0.6
+2017.2
+Jun 15 2017
+18:52:51
+E:/166 Lab/2_2/MUX2_1.v,1518043278,verilog,,,,MUX2_1,,,,,,,,
+E:/166 Lab/2_2/adder.v,1518043196,verilog,,,,adder,,,,,,,,
+E:/166 Lab/2_2/dffa.v,1518043176,verilog,,,,dffa,,,,,,,,
+E:/166 Lab/2_2/dffb.v,1518043192,verilog,,,,dffb,,,,,,,,
+E:/166 Lab/2_2/dffcarry.v,1519609418,verilog,,,,dffcarry,,,,,,,,
+E:/166 Lab/2_2/multiplier.v,1519610096,verilog,,,,multiplier,,,,,,,,
+E:/166 Lab/2_2/myfsm.v,1519613018,verilog,,,,myfsm,,,,,,,,
+E:/166 Lab/2_2/old_vivado/old_vivado.sim/sim_1/behav/glbl.v,1497407496,verilog,,,,glbl,,,,,,,,
+E:/166 Lab/2_2/ph.v,1518046148,verilog,,,,ph,,,,,,,,
+E:/166 Lab/2_2/pl.v,1518047396,verilog,,,,pl,,,,,,,,
+E:/166 Lab/2_2/top.v,1519618200,verilog,,,,top,,,,,,,,
+E:/166 Lab/2_2/top_tb.v,1519678466,verilog,,,,top_tb,,,,,,,,

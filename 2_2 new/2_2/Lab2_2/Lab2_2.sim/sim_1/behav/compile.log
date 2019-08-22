@@ -1,0 +1,18 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/166 Lab/2_2/MUX2_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX2_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/166 Lab/2_2/adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/166 Lab/2_2/dffa.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dffa
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/166 Lab/2_2/dffb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dffb
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/166 Lab/2_2/multiplier.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplier
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/166 Lab/2_2/ph.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ph
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/166 Lab/2_2/pl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pl
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/166 Lab/2_2/Lab2_2/Lab2_2.srcs/sim_1/new/multiplier_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplier_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/166 Lab/2_2/Lab2_2/Lab2_2.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

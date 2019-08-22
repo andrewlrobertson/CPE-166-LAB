@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Webtalk v2017.2 (64-bit)
+# SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+# IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+# Start of session at: Wed Mar 14 14:17:49 2018
+# Process ID: 6612
+# Current directory: E:/166 Lab/3_1/lab3_1
+# Command line: wbtcv.exe -mode batch -source E:/166 Lab/3_1/lab3_1/lab3_1.hw/webtalk/labtool_webtalk.tcl -notrace Lab/3_1/lab3_1/lab3_1.hw/webtalk/labtool_webtalk.log
+# Log file: E:/166 Lab/3_1/lab3_1/webtalk.log
+# Journal file: E:/166 Lab/3_1/lab3_1\webtalk.jou
+#-----------------------------------------------------------
+invalid command name "rdi::open_ppr_or_dcp"
+INFO: [Common 17-206] Exiting Webtalk at Wed Mar 14 14:17:49 2018...

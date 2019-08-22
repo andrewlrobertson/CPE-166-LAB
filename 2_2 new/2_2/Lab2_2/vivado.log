@@ -1,0 +1,191 @@
+#-----------------------------------------------------------
+# Vivado v2017.2 (64-bit)
+# SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+# IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+# Start of session at: Tue Feb 27 17:12:13 2018
+# Process ID: 17552
+# Current directory: E:/166 Lab/2_2/Lab2_2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7612 E:\166 Lab\2_2\Lab2_2\Lab2_2.xpr
+# Log file: E:/166 Lab/2_2/Lab2_2/vivado.log
+# Journal file: E:/166 Lab/2_2/Lab2_2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {E:/166 Lab/2_2/Lab2_2/Lab2_2.xpr}
+Scanning sources...
+Finished scanning sources
+CRITICAL WARNING: [Project 1-505] Unrecognized Option Name CompiledLibDirXcelium
+CRITICAL WARNING: [Project 1-505] Unrecognized Option Name ProjectType
+CRITICAL WARNING: [Project 1-505] Unrecognized Option Name SimTypes
+WARNING: [Project 1-231] Project 'Lab2_2.xpr' was created with a future version and may or may not perform reliably with this version of Vivado. It has been opened in read-only mode for the protection of unrecognized data. Use 'File | Save Project As...' if you wish to alter a copy of the project.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2017.2/data/ip'.
+open_project: Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 708.723 ; gain = 0.000
+update_compile_order -fileset sources_1
+save_project_as old_vivado {E:/166 Lab/2_2/old_vivado} -force
+save_project_as: Time (s): cpu = 00:00:05 ; elapsed = 00:00:25 . Memory (MB): peak = 768.828 ; gain = 0.000
+launch_simulation
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'top_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/166 Lab/2_2/old_vivado/old_vivado.sim/sim_1/behav'
+"xvlog -m64 --relax -prj top_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/166 Lab/2_2/MUX2_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX2_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/166 Lab/2_2/adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/166 Lab/2_2/dffa.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dffa
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/166 Lab/2_2/dffb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dffb
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/166 Lab/2_2/dffcarry.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dffcarry
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/166 Lab/2_2/multiplier.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplier
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/166 Lab/2_2/myfsm.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module myfsm
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/166 Lab/2_2/ph.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ph
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/166 Lab/2_2/pl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pl
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/166 Lab/2_2/top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/166 Lab/2_2/top_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/166 Lab/2_2/old_vivado/old_vivado.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/166 Lab/2_2/old_vivado/old_vivado.sim/sim_1/behav'
+Vivado Simulator 2017.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2017.2/bin/unwrapped/win64.o/xelab.exe -wto aa756ffbe2e643f1a1142889710838d3 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot top_tb_behav xil_defaultlib.top_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port load [E:/166 Lab/2_2/multiplier.v:15]
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4100] "E:/166 Lab/2_2/old_vivado/old_vivado.sim/sim_1/behav/glbl.v" Line 6. Module glbl has a timescale but at least one module in design doesn't have timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.myfsm
+Compiling module xil_defaultlib.ph
+Compiling module xil_defaultlib.pl
+Compiling module xil_defaultlib.dffa
+Compiling module xil_defaultlib.dffb
+Compiling module xil_defaultlib.dffcarry
+Compiling module xil_defaultlib.MUX2_1
+Compiling module xil_defaultlib.adder
+Compiling module xil_defaultlib.multiplier
+Compiling module xil_defaultlib.top
+Compiling module xil_defaultlib.top_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot top_tb_behav
+
+****** Webtalk v2017.2 (64-bit)
+  **** SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+  **** IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+source E:/166 -notrace
+invalid command name "%"
+    while executing
+"% Total    % Received % Xferd  Average Speed   Time    Time     Time  Current"
+    (file "E:/166" line 1)
+INFO: [Common 17-206] Exiting Webtalk at Tue Feb 27 17:14:31 2018...
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:11 . Memory (MB): peak = 768.828 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '11' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/166 Lab/2_2/old_vivado/old_vivado.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "top_tb_behav -key {Behavioral:sim_1:Functional:top_tb} -tclbatch {top_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2017.2
+Time resolution is 1 ps
+source top_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 2000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'top_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 2000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:17 . Memory (MB): peak = 768.828 ; gain = 0.000
+add_files -fileset constrs_1 -norecurse {{E:/166 Lab/2_2/mult.xdc}}
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+[Tue Feb 27 17:31:33 2018] Launched synth_1...
+Run output will be captured here: E:/166 Lab/2_2/old_vivado/old_vivado.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 4
+[Tue Feb 27 17:32:26 2018] Launched impl_1...
+Run output will be captured here: E:/166 Lab/2_2/old_vivado/old_vivado.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Tue Feb 27 17:33:39 2018] Launched impl_1...
+Run output will be captured here: E:/166 Lab/2_2/old_vivado/old_vivado.runs/impl_1/runme.log
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2017.2
+  **** Build date : Jun 15 2017-18:53:26
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210292A6EF09A
+set_property PROGRAM.FILE {E:/166 Lab/2_2/old_vivado/old_vivado.runs/impl_1/top.bit} [get_hw_devices xc7a100t_0]
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {E:/166 Lab/2_2/old_vivado/old_vivado.runs/impl_1/top.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+[Tue Feb 27 17:37:06 2018] Launched synth_1...
+Run output will be captured here: E:/166 Lab/2_2/old_vivado/old_vivado.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 4
+[Tue Feb 27 17:38:15 2018] Launched impl_1...
+Run output will be captured here: E:/166 Lab/2_2/old_vivado/old_vivado.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Tue Feb 27 17:40:07 2018] Launched impl_1...
+Run output will be captured here: E:/166 Lab/2_2/old_vivado/old_vivado.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {E:/166 Lab/2_2/old_vivado/old_vivado.runs/impl_1/top.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Feb 27 18:00:57 2018...

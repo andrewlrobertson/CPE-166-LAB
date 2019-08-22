@@ -1,0 +1,94 @@
+#-----------------------------------------------------------
+# Vivado v2017.2 (64-bit)
+# SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+# IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+# Start of session at: Wed Feb 21 14:07:07 2018
+# Process ID: 9840
+# Current directory: E:/166 Lab/2_2/Lab2_2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7096 E:\166 Lab\2_2\Lab2_2\Lab2_2.xpr
+# Log file: E:/166 Lab/2_2/Lab2_2/vivado.log
+# Journal file: E:/166 Lab/2_2/Lab2_2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {E:/166 Lab/2_2/Lab2_2/Lab2_2.xpr}
+update_compile_order -fileset sources_1
+launch_simulation
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+launch_simulation
+source multiplier_tb.tcl
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+close_sim
+launch_simulation
+source multiplier_tb.tcl
+add_bp {E:/166 Lab/2_2/multiplier.v} 11
+remove_bps -file {E:/166 Lab/2_2/multiplier.v} -line 11
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+close_sim
+launch_simulation
+source multiplier_tb.tcl
+close_sim
+launch_simulation
+source multiplier_tb.tcl
+close_sim
+launch_simulation
+source multiplier_tb.tcl
+close_sim
+launch_simulation
+source multiplier_tb.tcl
+close_sim
+launch_simulation
+launch_simulation
+source multiplier_tb.tcl
+close_sim
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+launch_simulation
+source multiplier_tb.tcl
+close_sim
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+launch_simulation
+source multiplier_tb.tcl
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+close_sim
+launch_simulation
+source multiplier_tb.tcl
+close_sim
+launch_simulation
+source multiplier_tb.tcl
+close_sim
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+launch_simulation
+source multiplier_tb.tcl
+close_sim
+launch_simulation
+source multiplier_tb.tcl
+close_sim
+launch_simulation
+source multiplier_tb.tcl
+close_sim
+launch_simulation
+source multiplier_tb.tcl
+close_sim
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+launch_simulation
+source multiplier_tb.tcl
+close_sim
+launch_simulation
+source multiplier_tb.tcl
+close_sim
+close_project

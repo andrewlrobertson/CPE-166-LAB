@@ -1,0 +1,18 @@
+0.6
+2017.4
+Dec 15 2017
+21:07:18
+E:/166 Lab/2_2/Lab2_2/Lab2_2.sim/sim_1/behav/xsim/glbl.v,1513215260,verilog,,,,glbl,,,,,,,,
+E:/166 Lab/2_2/Lab2_2/Lab2_2.srcs/sim_1/new/multiplier_tb.v,1519257958,verilog,,,,multiplier_tb,,,,,,,,
+E:/166 Lab/2_2/MUX2_1.v,1518043278,verilog,,E:/166 Lab/2_2/adder.v,,MUX2_1,,,,,,,,
+E:/166 Lab/2_2/adder.v,1518043196,verilog,,E:/166 Lab/2_2/dffa.v,,adder,,,,,,,,
+E:/166 Lab/2_2/dffa.v,1518043176,verilog,,E:/166 Lab/2_2/dffb.v,,dffa,,,,,,,,
+E:/166 Lab/2_2/dffb.v,1518043192,verilog,,E:/166 Lab/2_2/dffcarry.v,,dffb,,,,,,,,
+E:/166 Lab/2_2/dffcarry.v,1519609418,verilog,,E:/166 Lab/2_2/multiplier.v,,dffcarry,,,,,,,,
+E:/166 Lab/2_2/multiplier.v,1519610096,verilog,,E:/166 Lab/2_2/myfsm.v,,multiplier,,,,,,,,
+E:/166 Lab/2_2/myfsm.v,1519613018,verilog,,E:/166 Lab/2_2/ph.v,,myfsm,,,,,,,,
+E:/166 Lab/2_2/myfsm_tb.v,1519613900,verilog,,,,myfsm_tb,,,,,,,,
+E:/166 Lab/2_2/ph.v,1518046148,verilog,,E:/166 Lab/2_2/pl.v,,ph,,,,,,,,
+E:/166 Lab/2_2/pl.v,1518047396,verilog,,E:/166 Lab/2_2/top.v,,pl,,,,,,,,
+E:/166 Lab/2_2/top.v,1519618200,verilog,,E:/166 Lab/2_2/top_tb.v,,top,,,,,,,,
+E:/166 Lab/2_2/top_tb.v,1519678342,verilog,,,,top_tb,,,,,,,,

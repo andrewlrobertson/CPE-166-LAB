@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/166 Lab/1/SourceA.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux2to1
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/166 Lab/1/SourceB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mymux_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/166 Lab/1/Test1/Test1.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

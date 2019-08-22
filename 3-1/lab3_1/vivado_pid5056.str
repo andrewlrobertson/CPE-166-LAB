@@ -1,0 +1,200 @@
+/*
+
+Vivado v2017.2 (64-bit)
+SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+
+Process ID: 5056
+License: Customer
+
+Current time: 	3/14/18 1:51:23 PM PDT
+Time zone: 	Pacific Standard Time (America/Los_Angeles)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 4
+
+Screen size: 1920x1080
+Screen resolution (DPI): 96
+Available screens: 1
+Available disk space: 81 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	C:/Xilinx/Vivado/2017.2/tps/win64/jre
+JVM executable location: 	C:/Xilinx/Vivado/2017.2/tps/win64/jre/bin/java.exe
+Java library paths: C:/Xilinx/Vivado/2017.2/bin/unwrapped/win64.o;C:/Windows/Sun/Java/bin;C:/Windows/system32;C:/Windows;C:/Xilinx/Vivado/2017.2/bin;C:/Xilinx/Vivado/2017.2/lib/win64.o;C:/Xilinx/Vivado/2017.2/tps/win64/jre/bin/server;C:/Xilinx/Vivado/2017.2/tps/win64/jre/bin;C:/Xilinx/SDK/2017.2/bin;C:/Xilinx/Vivado/2017.2/ids_lite/ISE/bin/nt64;C:/Xilinx/Vivado/2017.2/ids_lite/ISE/lib/nt64;C:/Xilinx/Vivado_HLS/2017.2/bin;C:/ProgramData/Oracle/Java/javapath;C:/Windows/system32;C:/Windows;C:/Windows/System32/Wbem;C:/Windows/System32/WindowsPowerShell/v1.0/;C:/Program Files/PuTTY/;C:/Program Files/Matlab/R2017a/bin;C:/Program Files (x86)/IVI Foundation/IVI/bin;C:/Program Files/IVI Foundation/IVI/bin;C:/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin/;C:/Program Files/IVI Foundation/VISA/Win64/Bin/;C:/Program Files (x86)/SimpleIDE/propeller-gcc/bin;C:/Program Files/MiKTeX 2.9/miktex/bin/x64/;C:/Program Files/Java/jdk1.8.0_161/bin;C:/Users/robertsa/AppData/Local/Microsoft/WindowsApps;C:/Xilinx/Vivado/2017.2/tps/mingw/6.2.0/win64.o/nt/bin;C:/Xilinx/Vivado/2017.2/tps/mingw/6.2.0/win64.o/nt/libexec/gcc/x86_64-w64-mingw32/6.2.0;.
+
+User name: 	robertsa
+User home directory: C:/Users/robertsa
+User working directory: E:/166 Lab/3_1/lab3_1
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: C:/Xilinx/Vivado
+HDI_APPROOT: C:/Xilinx/Vivado/2017.2
+RDI_DATADIR: C:/Xilinx/Vivado/2017.2/data
+RDI_BINDIR: C:/Xilinx/Vivado/2017.2/bin
+
+User preferences location: C:/Users/robertsa/AppData/Roaming/Xilinx/Vivado
+Vivado preferences directory: C:/Users/robertsa/AppData/Roaming/Xilinx/Vivado/2017.2/vivado.xml
+Vivado layouts directory: C:/Users/robertsa/AppData/Roaming/Xilinx/Vivado/2017.2/layouts
+PlanAhead jar location: 	C:/Xilinx/Vivado/2017.2/lib/classes/planAhead.jar
+Vivado Look & Feel: 	[Synthetica - the extended Synth Look and Feel. - ui.g.i.H]
+Engine tmp dir: 	E:/166 Lab/3_1/lab3_1/.Xil/Vivado-5056-BARIUM
+
+GUI allocated memory:	155 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 479 MB
+
+*/
+
+// TclEventType: START_GUI
+// [GUI Memory]: 35 MB (+33903kb) [00:00:19]
+// [Engine Memory]: 442 MB (+311900kb) [00:00:19]
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// bs:g (cg:JFrame):  Open Project : addNotify
+// Opening Vivado Project: E:\166 Lab\3_1\lab3_1\lab3_1.xpr. Version: Vivado v2017.2 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project {E:/166 Lab/3_1/lab3_1/lab3_1.xpr} 
+// [GUI Memory]: 38 MB (+1959kb) [00:00:22]
+// [Engine Memory]: 479 MB (+15225kb) [00:00:22]
+// TclEventType: MSGMGR_MOVEMSG
+// WARNING: HTimer (HSTRUtils Dump STR Log Timer) is taking too long to process. Increasing delay to 4000 ms.
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project {E:/166 Lab/3_1/lab3_1/lab3_1.xpr} 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// HMemoryUtils.trashcanNow. Engine heap size: 481 MB. GUI used memory: 37 MB. Current time: 3/14/18 1:51:25 PM PDT
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 52 MB (+12397kb) [00:00:36]
+// [Engine Memory]: 564 MB (+64967kb) [00:00:36]
+// [GUI Memory]: 59 MB (+4924kb) [00:00:38]
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2017.2/data/ip'. 
+// HMemoryUtils.trashcanNow. Engine heap size: 564 MB. GUI used memory: 40 MB. Current time: 3/14/18 1:51:42 PM PDT
+// Project name: lab3_1; location: E:/166 Lab/3_1/lab3_1; part: xc7a100tcsg324-1
+// Tcl Message: open_project: Time (s): cpu = 00:00:16 ; elapsed = 00:00:20 . Memory (MB): peak = 786.172 ; gain = 79.988 
+dismissDialog("Open Project"); // bs:g (cg:JFrame)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 0); // B:i (D:JPanel, cg:JFrame)
+// TclEventType: DG_GRAPH_GENERATED
+// Tcl Message: update_compile_order -fileset sources_1 
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 2); // B:i (D:JPanel, cg:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 2); // B:i (D:JPanel, cg:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 4); // B:i (D:JPanel, cg:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1]", 5); // B:i (D:JPanel, cg:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, Disabled Sources]", 7); // B:i (D:JPanel, cg:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top(arch) (top.vhd)]", 1); // B:i (D:JPanel, cg:JFrame)
+selectButton(PAResourceQtoS.RunGadget_SHOW_ERROR_AND_CRITICAL_WARNING_MESSAGES, "1 critical warning"); // h:k (JPanel:JComponent, cg:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+selectButton(PAResourceCommand.PACommandNames_ADD_SOURCES, "Sources_add_sources"); // B:JideButton (f:CommandBar, cg:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c:g (cg:JFrame): Add Sources: addNotify
+// [GUI Memory]: 64 MB (+1216kb) [00:01:21]
+selectRadioButton(PAResourceAtoD.AddSrcWizard_SPECIFY_OR_CREATE_CONSTRAINT_FILES, "Add or create constraints"); // a:JRadioButton (JPanel:JComponent, c:g)
+selectButton("NEXT", "Next >"); // JButton:AbstractButton (ButtonPanel:JPanel, c:g)
+selectButton(PAResourceAtoD.ConstraintsChooserPanel_ADD_EXISTING_OR_CREATE_NEW_CONSTRAINTS, "Add"); // B:JideButton (f:CommandBar, c:g)
+selectMenuItem(PAResourceAtoD.ConstraintsChooserPanel_ADD_FILES, "Add Files..."); // ac:JMenuItem (ai:JPopupMenu, c:g)
+// [GUI Memory]: 70 MB (+3422kb) [00:01:31]
+setFileChooser("E:/166 Lab/3_1/Nexys4DDR_Master.xdc");
+selectButton("FINISH", "Finish"); // JButton:AbstractButton (ButtonPanel:JPanel, c:g)
+// 'h' command handler elapsed time: 15 seconds
+dismissDialog("Add Sources"); // c:g (cg:JFrame)
+// bs:g (cg:JFrame):  Add Constraint  : addNotify
+// Tcl Message: add_files -fileset constrs_1 -norecurse {{E:/166 Lab/3_1/Nexys4DDR_Master.xdc}} 
+// TclEventType: FILE_SET_CHANGE
+dismissDialog("Add Constraint"); // bs:g (cg:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1]", 6); // B:i (D:JPanel, cg:JFrame)
+// PAPropertyPanels.initPanels (Nexys4DDR_Master.xdc) elapsed time: 0.3s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, Nexys4DDR_Master.xdc]", 7, false); // B:i (D:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, Nexys4DDR_Master.xdc]", 7, false, false, false, false, false, true); // B:i (D:JPanel, cg:JFrame) - Double Click
+selectCodeEditor("Nexys4DDR_Master.xdc", 242, 219); // bI:J (JPanel:JComponent, cg:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // u:M (JViewport:JComponent, cg:JFrame)
+expandTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager]", 0); // u:M (JViewport:JComponent, cg:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// bs:g (cg:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// [GUI Memory]: 78 MB (+4508kb) [00:01:50]
+// f:p (cg:JFrame): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, f:p)
+// bs:g (cg:JFrame):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f:p (cg:JFrame)
+// Tcl Message: launch_runs synth_1 -jobs 2 
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Wed Mar 14 13:52:57 2018] Launched synth_1... Run output will be captured here: E:/166 Lab/3_1/lab3_1/lab3_1.runs/synth_1/runme.log 
+// 'k' command handler elapsed time: 7 seconds
+dismissDialog("Starting Design Runs"); // bs:g (cg:JFrame)
+// WARNING: HSwingWorker (Monitor File Timestamp Swing Worker) is taking too long to process. Increasing delay to 2000 ms.
+// Elapsed time: 59 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top(arch) (top.vhd), clock_div1 : clock_div(behavior) (clock_div.vhd)]", 3, false); // B:i (D:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top(arch) (top.vhd), clock_div1 : clock_div(behavior) (clock_div.vhd)]", 3, false, false, false, false, false, true); // B:i (D:JPanel, cg:JFrame) - Double Click
+selectCodeEditor("clock_div.vhd", 271, 239); // bI:J (JPanel:JComponent, cg:JFrame)
+// WARNING: HSwingWorker (Monitor File Timestamp Swing Worker) is taking too long to process. Increasing delay to 2000 ms.
+// TclEventType: RUN_COMPLETED
+// ah:x (cg:JFrame): Synthesis Completed: addNotify
+// Elapsed time: 111 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, ah:x)
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+// f:p (cg:JFrame): Launch Runs: addNotify
+// Elapsed time: 37 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, f:p)
+// bs:g (cg:JFrame):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f:p (cg:JFrame)
+// Tcl Message: launch_runs impl_1 -jobs 2 
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Wed Mar 14 13:56:28 2018] Launched impl_1... Run output will be captured here: E:/166 Lab/3_1/lab3_1/lab3_1.runs/impl_1/runme.log 
+// 'c' command handler elapsed time: 38 seconds
+dismissDialog("Starting Design Runs"); // bs:g (cg:JFrame)
+// TclEventType: RUN_STEP_COMPLETED
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 2000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 3000 ms.
+// TclEventType: RUN_COMPLETED
+// WARNING: HTimer (ExpRunMgr Pending Runs Timer) is taking too long to process. Increasing delay to 3000 ms.
+// ah:x (cg:JFrame): Implementation Completed: addNotify
+// Elapsed time: 118 seconds
+selectRadioButton(PAResourceCommand.PACommandNames_RUN_BITGEN, "Generate Bitstream"); // a:JRadioButton (JPanel:JComponent, ah:x)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, ah:x)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// f:p (cg:JFrame): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, f:p)
+dismissDialog("Launch Runs"); // f:p (cg:JFrame)
+// bs:g (cg:JFrame):  Generate Bitstream : addNotify
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 2 
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Wed Mar 14 13:58:32 2018] Launched impl_1... Run output will be captured here: E:/166 Lab/3_1/lab3_1/lab3_1.runs/impl_1/runme.log 
+// [GUI Memory]: 82 MB (+476kb) [00:07:31]
+dismissDialog("Generate Bitstream"); // bs:g (cg:JFrame)
+// TclEventType: RUN_COMPLETED
+// ah:x (cg:JFrame): Bitstream Generation Completed: addNotify
+// Elapsed time: 74 seconds
+selectRadioButton(PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER, "Open Hardware Manager"); // a:JRadioButton (JPanel:JComponent, ah:x)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, ah:x)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// Tcl Command: 'load_features labtools'
+// TclEventType: LOAD_FEATURE
+// WARNING: HSwingWorker (Monitor File Timestamp Swing Worker) is taking too long to process. Increasing delay to 3000 ms.
+// TclEventType: HW_SESSION_OPEN
+// PAPropertyPanels.initPanels (clock_div.vhd) elapsed time: 0.2s
+// 'Q' command handler elapsed time: 3 seconds
+// [Engine Memory]: 595 MB (+2832kb) [00:08:52]
+// Tcl Message: open_hw 
+// HMemoryUtils.trashcanNow. Engine heap size: 611 MB. GUI used memory: 52 MB. Current time: 3/14/18 1:59:54 PM PDT
+dismissDialog("Bitstream Generation Completed"); // ah:x (cg:JFrame)
+selectCodeEditor("Nexys4DDR_Master.xdc", 741, 243); // bI:J (JPanel:JComponent, cg:JFrame)
+// [GUI Memory]: 87 MB (+209kb) [00:09:48]

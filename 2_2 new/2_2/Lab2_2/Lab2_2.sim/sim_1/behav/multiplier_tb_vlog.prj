@@ -1,0 +1,15 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  "../../../../MUX2_1.v"
+verilog xil_defaultlib  "../../../../adder.v"
+verilog xil_defaultlib  "../../../../dffa.v"
+verilog xil_defaultlib  "../../../../dffb.v"
+verilog xil_defaultlib  "../../../../multiplier.v"
+verilog xil_defaultlib  "../../../../ph.v"
+verilog xil_defaultlib  "../../../../pl.v"
+verilog xil_defaultlib  "../../../Lab2_2.srcs/sim_1/new/multiplier_tb.v"
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
